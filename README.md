@@ -2,14 +2,14 @@
 <p> This is a responsive web application for a cinema booking system, built with a PHP backend and a dynamic frontend. The application allows users to browse movies, check showtimes, and book seats. </p>
 
 ### 📝 Table of Contents
-1. [Features](Features "Features")
-2. [Technologies_Used](Technologies_Used "Technologies_Used")
-3. [Prerequisites](Prerequisites "Prerequisites")
-4. [Installation](Installation "Installation")
-5. [Usage](Usage "Usage")
-6. [Database_Schema](Database_Schema "Database_Schema")
-7. [API_Endpoints](API_Endpoints "API_Endpoints")
-8. [Future_Improvements](Future_Improvements "Future_Improvements")
+1. Features
+2. Technologies Used
+3. Prerequisites
+4. Installation
+5. Usage
+6. Database Schema
+7. API Endpoints
+8. Future Improvements
 
 ## ✨ Features
 * **Responsive Design:** Ensures a seamless user experience across various devices, including desktops, tablets, and mobile phones.
@@ -19,21 +19,15 @@
 * **API-Driven:** The frontend communicates with the backend via RESTful API endpoints, allowing for dynamic data synchronization.
 * **Employee Dashboard:** A separate interface for employees to manage movie schedules and bookings.
 
-## 🛠️ Technologies_Used
+## 🛠️ Technologies Used
 * **Backend:**
-
   - **PHP 8.2.12:** The core server-side scripting language.
-
   - **MySQL:** The relational database for storing movie, user, and booking information.
 
 * **Frontend:**
-
   - **HTML5, CSS3, JavaScript:** The foundational web technologies.
-
   - **Bootstrap 5 & MDB 5 (Material Design for Bootstrap):** For a modern and responsive user interface.
-
   - **jQuery:** For DOM manipulation and handling client-side interactions.
-
   - **Font Awesome:** For a variety of icons.
 
 ## ✅ Prerequisites
@@ -51,7 +45,7 @@ Follow these steps to get the project up and running on your local machine:
 
 > Bash
 > 
-> git clone https://github.com/your-username/cinema-booking-php-app.git
+> git clone https://github.com/.../cinema-booking-php-app.git
 
 2. **Navigate to the project directory:**
 
@@ -67,7 +61,7 @@ Follow these steps to get the project up and running on your local machine:
 
 4. **Database Setup:**
 * Create a new MySQL database (e.g., cinema_db).
-* Import the database schema from the database.sql file (if provided) into your newly created database.
+* Import the database schema from the database.sql file into your newly created database.
 * Update the database connection details in your configuration file (e.g., config/database.php).
 
 5. **Configure the Application:**
@@ -93,7 +87,7 @@ The database is designed with several tables to manage movies, users, bookings, 
 * **Bookings Table:** Records customer reservations for seats.
 * **Seats Table:** Stores information about the seats in each theater.
 
-## 📡 API_Endpoints
+## 📡 API Endpoints
 The application uses RESTful API endpoints for data exchange. Here are some of the key endpoints:
 
 * **GET /api/movies:** Retrieve a list of all movies.
@@ -101,7 +95,7 @@ The application uses RESTful API endpoints for data exchange. Here are some of t
 * **POST /api/bookings:**  Create a new booking.
 * **GET /api/seats/{showtime_id}:** Check seat availability for a given showtime.
 
-## 🚀 Future_Improvements
+## 🚀 Future Improvements
 Based on the project documents, potential future enhancements include:
 
 * **Offline Support:** Implement Service Workers to provide offline functionality.
