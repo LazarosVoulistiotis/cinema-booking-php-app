@@ -103,3 +103,7 @@ Based on the project documents, potential future enhancements include:
 * **Improved Performance:** Enhance speed through data caching mechanisms.
 * **User Reviews:** Add a feature for users to rate and review movies.
 * **Payment Gateway Integration:** Allow for multiple payment options.
+
+For a detailed analysis of the project, including its functional and non-functional requirements, technical specifications, and testing procedures, please refer to the following documents:
+* CN5006_2678447_CWRK1.docx
+* CN5006_2678447_CWRK2.docx
